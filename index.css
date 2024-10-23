@@ -1,0 +1,519 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    font-family: Arial, sans-serif; 
+}
+
+.name-1 {
+    font-size: 20px;
+    color: red !important;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.ul {
+    list-style: none;
+    gap: 25px;
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    padding-right: 70px;
+}
+
+.main-1-1 {
+    background-image: url('img/doctors.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    /* border: 1px solid red; */
+}
+
+.img-1 {
+    height: 600px;
+    width: 1350px;
+
+}
+
+.box-1-1 {
+    height: 500px;
+    width: 100%;
+    /* width: 1350px; */
+    background-color: #1565c0;
+    /* border: 1px solid red; */
+}
+
+.box-1 {
+    height: 50px;
+    width: 850px;
+    /* border: 1px solid red; */
+    display: flex;
+    /* margin-top: 50px; */
+    margin-left: 30px;
+    justify-content: space-around;
+}
+
+.h2-1 {
+    font-size: 35px;
+    margin-top: 50px;
+    margin-right: 25.5rem;
+    color: white;
+    /* text-decoration: underline 1px ; */
+}
+
+.under-line {
+    height: 9px;
+    width: 310px;
+    color: rgb(255, 255, 255);
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+.under-line-1 {
+    height: 9px;
+    width: 350px;
+    color: rgb(255, 255, 255);
+    margin-left: 480px;
+    margin-top: -25px;
+}
+
+.box-1-2 {
+    height: 250px;
+    width: 1190px;
+    /* margin: auto; */
+    margin-left: 70px;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-1-8 {
+    height: 71px;
+    width: 279px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+.input-1 {
+    height: 45px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.pera-1 {
+    font-size: 15px;
+    color: white;
+}
+
+.main-1-b {
+    font-size: 20px;
+}
+
+.btn-1 {
+    height: 45px;
+    width: 250px;
+    margin-top: 40px;
+    color: white;
+    font-size: 12px;
+    background-color: rgb(72, 192, 72);
+    border-radius: 10px;
+}
+
+.pragraph {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .ul {
+        flex-direction: column;
+        gap: 10px;
+        padding-right: 0;
+        align-items: center;
+    }
+
+    .name-1 {
+        font-size: 18px;
+    }
+}
+
+/* Additional responsive styles */
+@media (max-width: 576px) {
+    .h2-1 {
+        font-size: 28px;
+    }
+    .box-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*--------------------------------- BEST HOSPITAL IN TOWN---------------------------- */
+
+.main-2 {
+    height: 700px;
+    width: 100%;
+}
+
+.hed-1 {
+    height: auto;
+    width: auto;
+}
+
+.main-h2 {
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(21, 10, 58);
+}
+
+.main-h3 {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(172, 170, 170);
+}
+
+.helth-care {
+    height: 600px;
+    width: 1100px;
+    margin-top: 50px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.helth-box {
+    height: 250px;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+}
+
+.helth-box:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.helth-box:hover .fa-solid{
+    transform: translate(-30%);
+}
+
+.fa-solid {
+    text-align: center;
+    margin-left: 115px;
+    margin-top: 10px;
+    font-size: 40px;
+    transition: 1s all ease;
+    cursor: pointer;
+}
+
+
+
+.fa-regular {
+    transition: 1s all ease;
+    cursor: pointer;
+}
+
+.fa-regular:hover {
+    transform: translate(-30%);
+}
+
+.helth-p {
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 10px;
+    justify-content: flex-start;
+
+}
+
+i {
+    color: rgb(216, 37, 37);
+}
+
+.fa-regular {
+    font-size: 40px;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+/*---------------------- OUR DOCTORS css------------------*/
+
+.main-3 {
+    height: 600px;
+    width: 100%;
+    background-color: #F9F9F9;
+}
+
+.main-3-h2 {
+    height: 80px;
+    width: 100%;
+}
+
+.main-3-pera {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-3-card {
+    margin-left: 35px;
+    margin-top: 90px;
+    display: flex;
+    gap: 25px;
+}
+
+.card {
+    width: 240px;
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+
+.card:hover {
+    box-shadow: none;
+    overflow: hidden;
+}
+
+.card-img-top:hover {
+    transform: scale(1.01);
+    transition: 2s linear;
+
+}
+
+.main-4 {
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.link-home {
+    text-decoration: none;
+    color: black;
+}
+
+.link-home:hover {
+    color: red;
+    font-weight: 600;
+
+}
+
+.main-4-h2 {
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+}
+
+.main-4-h2-1 {
+    text-align: center;
+}
+
+.hr-1 {
+    width: 180px;
+    margin: auto;
+    color: rgb(0, 0, 0);
+}
+
+.main-4-p {
+    height: 150px;
+    width: 593px;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+
+.main-p {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+    color: gray;
+}
+
+.img-2 {
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-bottom: 30px;
+    /* border-radius: 50%; */
+}
+
+.img-2-1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+/* our services */
+.main-5 {
+    height: 530px;
+    width: 100%;
+    background-color: rgb(249, 249, 249);
+
+}
+element.style {
+    width: 300px;
+    height: 378px;
+}
+
+.main-5-1 {
+    height: 60px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.main-5-h3 {
+    margin-top: 10px;
+    text-align: center;
+    transform: translate(0px, 20px);
+}
+
+.main-5-2 {
+    height: 400px;
+    width: 93%;
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+    gap: 50px;
+}
+
+.main-5-2.img-2-1 {
+    overflow: hidden;
+}
+
+.info-sj-1 {
+    height: 550px;
+    width: 100%;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4v6v3iLPHAI-nuuwYZClsYp_-nTc83LQC1a-ppMs9Lw&s" ); */
+    background-repeat: no-repeat;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.info-sj-1 div img
+{
+    height: 100%;
+}
+.info-sj-2 {
+    height: 500px;
+    width: 650px;
+    
+    /* border: 1px solid black; */
+    margin-top: 25px;
+
+    background-color: rgb(21, 101, 192);
+
+}
+
+.info-sj-h2 {
+    margin-top: 10px;
+    margin-left: 30px;
+    color: white;
+}
+
+.info-sj-pera {
+    color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.btn-sj-2 {
+    height: 55px;
+    width: 130px;
+    background-color: rgb(133, 170, 250);
+    color: white;
+    margin-top: 50px;
+    margin-left: 25px;
+    border: 2px solid rgb(133, 170, 250);
+    border-radius: 8px;
+}
+
+.btn-sj-2:hover {
+    background-color: transparent;
+    transform: translate(2.1);
+}
+
+
+/* HOSPITAL DEPARTMENTS */
+
+.main-6 {
+    height: 950px;
+    width: 100%;
+    background-color: #F9F9F9;
+    padding-top: 30px;
+}
+
+.main-6-head {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main-6-card {
+    height: auto;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.main-6-2 {
+    height: 500px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.img-2-4 {
+    overflow: hidden;
+}
+
+.card{
+    height: 350px;
+}
+.card-img-top {
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+.card-title-5 {
+    color: #1565c0;
+    text-align: center;
+}
+
+.card-text {
+    margin-top: 15px;
+    text-align: center;
+}
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+.footer-content div {
+    padding: 10px;
+}
